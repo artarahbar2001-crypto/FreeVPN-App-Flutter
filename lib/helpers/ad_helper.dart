@@ -29,7 +29,7 @@ class AdHelper {
 
     InterstitialAd.load(
       adUnitId: Config.interstitialAd,
-      request: AdRequest(),
+      request: const AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (ad) {
           //ad listener
@@ -73,7 +73,7 @@ class AdHelper {
 
     InterstitialAd.load(
       adUnitId: Config.interstitialAd,
-      request: AdRequest(),
+      request: const AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (ad) {
           //ad listener
@@ -172,7 +172,7 @@ class AdHelper {
 
     RewardedAd.load(
       adUnitId: Config.rewardedAd,
-      request: AdRequest(),
+      request: const AdRequest(),
       rewardedAdLoadCallback: RewardedAdLoadCallback(
         onAdLoaded: (ad) {
           Get.back();
