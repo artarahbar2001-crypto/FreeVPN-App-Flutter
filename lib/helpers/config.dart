@@ -1,4 +1,4 @@
-import 'dart:developer';
+Import 'dart:developer';
 
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 
@@ -6,9 +6,9 @@ class Config {
   static final _config = FirebaseRemoteConfig.instance;
 
   static const _defaultValues = {
-    "interstitial_ad": "ca-app-pub-XXXXXXXXXXXXXXXX/YYYYYYYYYY",
-    "native_ad": "ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ",
-    "rewarded_ad": "ca-app-pub-XXXXXXXXXXXXXXXX/WWWWWWWWWW",
+    "interstitial_ad": "ca-app-pub-7581220527927206/8634442408",
+    "native_ad": "ca-app-pub-7581220527927206/9900112067",
+    "rewarded_ad": "ca-app-pub-7581220527927206/3502717454",
     "show_ads": true
   };
 
